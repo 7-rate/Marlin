@@ -4,24 +4,37 @@ Gen6.d ファームウェアのアップデート方法:
 ========================================
 
 設定とコンパイル：
+
 Arduino software IDE/toolset v22 をインストールしてください。 
+
 http://www.arduino.cc/en/Main/Software 
 
+
 Gen6.d Marlin Firmwareをダウンロードして解凍してください。 
+
 https://github.com/romscraj/Marlin/zipball/Marlin_v1 
 
+
 Gen6.d用に、Marlinディレクトリ内のSanguinoディレクトリをArduinoの環境にコピーしてください。 
+
 Marlin\sanguino　を Arduinoソフトウェアのフォルダ内　\hardware\Sanguino　にコピー。 
 
 
+
 Arduino IDE (arduino.exe)を起動してください。Tools -> Board -> Sanguino　を選択してください。 
+
 正しいシリアルポートを選択してください。Tools ->Serial Port Open Marlin.pde 
+
 
 Verify/Compile ボタンをクリックしてください。 
 
+
 Upload ボタンをクリックしてください。 
+
 問題が無ければファームウェアがアップロードされます。 
 
+
+--------
 
 ========================================================================================
 
