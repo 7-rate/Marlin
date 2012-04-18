@@ -12,7 +12,7 @@ Gen6.d ファームウェアのアップデート方法:
 
 2.Gen6.d Marlin Firmwareをダウンロードして解凍してください。 
 
-　https://github.com/romscraj/Marlin/zipball/Marlin_v1 
+　https://github.com/lunavast/Marlin/zipball/Marlin_v1 
 
 
 3.Gen6.d用に、Marlinディレクトリ内のSanguinoディレクトリをArduinoの環境にコピーしてください。 
