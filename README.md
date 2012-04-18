@@ -25,13 +25,15 @@ Gen6.d ファームウェアのアップデート方法:
 
 5.Tools -> Board -> Sanguino　を選択してください。 
 
-6.正しいシリアルポートを選択してください。Tools ->Serial Port Open Marlin.pde 
+6.正しいシリアルポートを選択してください。Tools ->Serial Port 
+
+7.解凍したGen6.d Marlinファームウェアのフォルダ内の Marlin.pde を開いてください。 
 
 
-7.Verify/Compile ボタンをクリックしてください。 
+8.Verify/Compile ボタンをクリックしてください。 
 
 
-8.Upload ボタンをクリックしてください。 
+9.Upload ボタンをクリックしてください。 
 
 
 　問題が無ければファームウェアがアップロードされます。 
