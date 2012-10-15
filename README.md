@@ -5,7 +5,7 @@ Gen6.d ファームウェアのアップデート方法:
 
 設定とコンパイル：
 
-1.Arduino software IDE/toolset v22 をインストールしてください。 
+1.Arduino software IDE/toolset v22 (Arduino 0022) をインストールしてください。（最新バージョンではなく、Arduino 0022をインストールしてください。） 
 
 　http://www.arduino.cc/en/Main/Software 
 
