@@ -1,5 +1,6 @@
 Lunavast Prusa 
 Version 1: http://lunavast.com/?pid=39241828
+
 Version 2: http://lunavast.com/?pid=49936789
 
 ================================================
@@ -37,12 +38,22 @@ Gen6.d ファームウェアのアップデート方法:
 7.解凍したGen6.d Marlinファームウェアのフォルダ内の Marlin.pde を開いてください。 
 
   Lunavast Prusa V1 の場合は、Marlin / Configuration.hを開いて、DEFAULT_AXIS_STEPS_PER_UNIT   {32, 32, 2078.72, 514} に変更してください。
+
 　（初期値はLunavast Prusa V2用の設定になっています。Prusa V2用には変更の必要はありません。）
+
+
   参考：
+
   //#define DEFAULT_AXIS_STEPS_PER_UNIT   {32, 32, 2078.72, 514}  // Lunavast Prusa V1  with 10-tooth custom aluminium pulleys, measured. (calculated values: {32, 32, 2048, xxx})
+
   //#define DEFAULT_AXIS_STEPS_PER_UNIT   {40, 40, 2078.72, 514}  // Lunavast Prusa V2  with 2GT Belts. (calculated values: {40, 40, 2048, xxx})
 
+
+
+
   変更後、保存してください。
+
+
 
 8.Verify/Compile ボタンをクリックしてください。 
 
