@@ -1,14 +1,18 @@
 Lunavast Prusa 
+
 Version 1: http://lunavast.com/?pid=39241828
 
 Version 2: http://lunavast.com/?pid=49936789
+
 
 ================================================
 Gen6.d ファームウェアのアップデート方法:
 ========================================
 
+
 更新履歴：
  2012/11/05 DEFAULT_AXIS_STEPS_PER_UNITの設定変更方法を追記。
+
 
 
 設定とコンパイル：
