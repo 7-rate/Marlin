@@ -238,11 +238,12 @@ const bool Z_ENDSTOPS_INVERTING = true; // set to true to invert the logic of th
 
 // default settings 
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {32, 32, 2078.72, 514}  
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {40, 40, 2078.72, 514}  
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {40, 40, 3333.92, 360} //sells mendel with v9 extruder
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.3232, 80.8900, 2284.7651, 757.2218} // SAE Prusa w/ Wade extruder
-//#define DEFAULT_AXIS_STEPS_PER_UNIT   {40, 40, 2674.36, 514}  // Durbie prusa mendel with 8-tooth RP plastic pulleys, measured. (calculated values: {40, 40, 2560, xxx})
-//#define DEFAULT_AXIS_STEPS_PER_UNIT   {32, 32, 2078.72, 514}  // Durbie prusa mendel with 10-tooth custom aluminium pulleys, measured. (calculated values: {32, 32, 2048, xxx})
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   {40, 40, 2674.36, 514}  // Lunavast Prusa V1 with 8-tooth RP plastic pulleys, measured. (calculated values: {40, 40, 2560, xxx})
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   {32, 32, 2078.72, 514}  // Lunavast Prusa V1  with 10-tooth custom aluminium pulleys, measured. (calculated values: {32, 32, 2048, xxx})
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   {40, 40, 2078.72, 514}  // Lunavast Prusa V2  with 2GT Belts. (calculated values: {40, 40, 2048, xxx})
 
 #define DEFAULT_MAX_FEEDRATE          {500, 500, 5, 45}    // (mm/sec)    
 #define DEFAULT_MAX_ACCELERATION      {9000,9000,80,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
